@@ -1,0 +1,9 @@
+<section>
+                <input type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+                <input type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+                <input type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+                <input type="tel" name="numero" id="numero" placeholder="numero">
+                <Textarea name="mensaje" id="mensaje" placeholder="Mensaje">
+                </Textarea>
+
+</section>
