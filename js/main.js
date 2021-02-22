@@ -2,6 +2,10 @@ let cerrar = document.querySelectorAll('.close')[0];
 let abrir = document.querySelectorAll('.cta')[0];
 let modal = document.querySelectorAll('.modal')[0];
 let modalC = document.querySelectorAll('.modal-container')[0];
+let x1 = document.querySelectorAll('.desplazamiento')[0];
+let x2 = document.querySelectorAll('#menu-items')[0];
+let x = document.querySelectorAll('.nav-menu')[0];
+
 abrir.addEventListener("click", function(e){
   e.preventDefault();
   modalC.style.opacity = "1";
@@ -25,12 +29,11 @@ window.addEventListener("click", function(e){
     },800)
   }
 })
-document.querySelector('.desplazamiento').addEventListener('click',() => {
- document.querySelector('.nav-menu').classList.toggle('show')
-});
+x1.addEventListener("click", function(e){
+  e.preventDefault();
+  x.classList.toggle('show');
+})
+x2.addEventListener("click", function(e){
 
-document.querySelector('#menu-items').addEventListener('click',() => {
-  document.querySelector('.nav-menu').classList.toggle('show')
- });
-
- 
+  x.classList.toggle('show');
+})
