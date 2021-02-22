@@ -145,13 +145,13 @@ header .textos-header{
  .modal{
     width: 50%;
     height: 65%;
-    background: #be1622;
+    background: #f3f3f3;
     padding: 30px;
     margin: auto;
     margin-top: 140px;
     border-radius: 4px;
     font-family: 'calibri';
-    color: #fff;
+    color:  rgb(61, 61, 61);;
     box-shadow: 7px 13px 37px #000;
     transition: transform 1s;
      transform: translateY(0%);
@@ -196,14 +196,14 @@ header .textos-header{
   
   .controls {
     width: 100%;
-    background: #910e17;
+    background: #fff;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
-    border: 1px solid #ffffff;
+    border: 1px solid rgb(61, 61, 61);
     font-family: 'calibri';
     font-size: 18px;
-    color: white;
+    color: #212121;
   }
   textarea{
       height: 70px;
@@ -218,13 +218,13 @@ header .textos-header{
   }
   
   .form-register a {
-    color: white;
-    text-decoration: none;
+    color:  rgb(61, 61, 61);;
+    text-decoration: underline ;
   }
   
   .form-register a:hover {
-    color: white;
-    text-decoration: underline;
+    color:  rgb(61, 61, 61);;
+    text-decoration: underline ;
   }
   
   .form-register .botons {
