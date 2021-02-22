@@ -506,6 +506,7 @@ footer{
     
     .menu{
         background: #080808;
+        
        
     }
     /*menu izquierda boton barras*/
@@ -523,6 +524,7 @@ footer{
         padding-right: 2%;
         font: bold;
         display: block;
+        
     }
         .nav-menu{
         display: block;
@@ -537,6 +539,7 @@ footer{
         text-align: center;
         transform: translate(-120%,0);
         opacity: 60%;
+  
     
     }
     /*muestra el menu*/
