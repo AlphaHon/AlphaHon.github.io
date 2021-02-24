@@ -7,9 +7,15 @@
 
   
 
-.textos-header h2{
+.textos-header h2,{
     animation-name: aparecer;
     animation-duration: 2.5s;
+    animation-iteration-count: 1;
+    
+  }
+  .formulario{
+    animation-name: aparecer;
+    animation-duration: 0.8s;
     animation-iteration-count: 1;
     
   }
