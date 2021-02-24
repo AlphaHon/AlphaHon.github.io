@@ -1,0 +1,76 @@
+/* clases */
+.textos-header h1{
+    animation-name: zoom;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+  }
+
+  
+
+.textos-header h2, h3{
+    animation-name: aparecer;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    
+  }
+
+  .contenedor-sobre-nosotros img{
+    animation-name: aparecer1;
+    animation-duration: 1.5s;
+    animation-iteration-count: ;
+    
+  }
+  p{
+    animation-duration: 500ms;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-delay: 1s;
+  }
+
+/*Animaciones*/
+@keyframes zoom{
+    0% {
+      transform: translateZ(200%);
+      font-size: 200px;
+      opacity: 5%;
+    }
+
+    100% {
+      transform: translateZ(0%);
+      opacity: 100%;
+    }
+}
+@keyframes aparecer{
+    0% {
+     opacity: 0%;
+    }
+   40%{
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+@keyframes aparecer1{
+    0% {
+     opacity: 0%;
+    }
+    50%{
+        opacity: 55%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }

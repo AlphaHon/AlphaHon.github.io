@@ -88,7 +88,7 @@ nav > a:hover{
     height: auto;
     position: fixed;
     opacity: 97%;
-    z-index: 1;
+    z-index: 100;
 }
 
 .desplazamiento{
@@ -292,8 +292,9 @@ main .sobre-nosotros{
 .contenido-textos p{
     padding: 0px 0px 30px 15px;
     font-weight: 300px;
-    text-align: justify;
+    text-align: justify;animation-duration: 3s;
 }
+    
 .descrip{
     width: 100%;
 
@@ -753,28 +754,4 @@ footer{
         font-size: 18px;
     }
     
-}
-/*Animaciones*/
-@keyframes bounce{
-    0% {
-      transform: translateZ(200%);
-      font-size: 200px;
-      opacity: 5%;
-    }
-
-    100% {
-      transform: translateZ(0%);
-      opacity: 100%;
-    }
-}
-@keyframes bounceh2{
-    0% {
-     opacity: 0%;
-    }
-   40%{
-        opacity: 0%;
-    }
-    100% {
-        opacity: 100%;
-    }
 }
