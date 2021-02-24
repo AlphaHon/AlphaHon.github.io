@@ -7,26 +7,13 @@
 
   
 
-.textos-header h2, h3{
+.textos-header h2{
     animation-name: aparecer;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-iteration-count: 1;
     
   }
 
-  .contenedor-sobre-nosotros img{
-    animation-name: aparecer1;
-    animation-duration: 1.5s;
-    animation-iteration-count: ;
-    
-  }
-  p{
-    animation-duration: 500ms;
-    animation-name: slidein;
-    animation-iteration-count: 1;
-    animation-direction: alternate;
-    animation-delay: 1s;
-  }
 
 /*Animaciones*/
 @keyframes zoom{
@@ -44,33 +31,13 @@
 @keyframes aparecer{
     0% {
      opacity: 0%;
+     transform: translateY(150%);
     }
    40%{
         opacity: 0%;
     }
     100% {
+        transform: translateY(0%);
         opacity: 100%;
     }
 }
-@keyframes aparecer1{
-    0% {
-     opacity: 0%;
-    }
-    50%{
-        opacity: 55%;
-    }
-    100% {
-        opacity: 100%;
-    }
-}
-@keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  }
