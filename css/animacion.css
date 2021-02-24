@@ -1,7 +1,7 @@
 /* clases */
 .textos-header h1{
     animation-name: zoom;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-iteration-count: 1;
   }
 
@@ -9,7 +9,7 @@
 
 .textos-header h2{
     animation-name: aparecer;
-    animation-duration: 2s;
+    animation-duration: 2.5s;
     animation-iteration-count: 1;
     
   }
