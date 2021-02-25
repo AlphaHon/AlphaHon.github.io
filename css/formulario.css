@@ -138,9 +138,10 @@
 
 
 /* ----- -----  Mediaqueries ----- ----- */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 770px) {
 	.formulario {
 		grid-template-columns: 1fr;
+		margin-top: 100px;
 	}
 
 	.formulario__grupo-terminos, 
@@ -152,5 +153,11 @@
 
 	.formulario__btn {
 		width: 100%;
+	}
+	form{
+		padding-bottom: 50px;
+	}
+	.formulario__grupo-btn-enviar{
+		margin: 35px;
 	}
 }
