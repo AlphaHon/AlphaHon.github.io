@@ -567,18 +567,19 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     }
     /*menu izquierda boton barras*/
     .desplazamiento{
-        display:block;
+        display:flex;
         text-align: left;
         left: 30px;
         top:10px;
         z-index: 1001;
+        padding: 15px;
     }
     .desplazamiento:hover{
         opacity: 60%;
     }
     /**/
     nav > a{
-        padding-right: 2%;
+        padding-right: 3%;
         font: bold;
         display: block;
     }
