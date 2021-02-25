@@ -88,7 +88,7 @@ nav > a:hover{
     height: auto;
     position: fixed;
     opacity: 97%;
-    z-index: 100;
+    z-index: 1;
 }
 
 .desplazamiento{
@@ -580,7 +580,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
         padding-right: 2%;
         font: bold;
         display: block;
-        
     }
         .nav-menu{
         display: block;
@@ -595,7 +594,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
         text-align: center;
         transform: translate(-120%,0);
         opacity: 60%;
-  
     
     }
     /*muestra el menu*/

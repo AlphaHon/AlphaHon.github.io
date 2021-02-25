@@ -1,3 +1,4 @@
+
 let cerrar = document.querySelectorAll('.close')[0];
 let abrir = document.querySelectorAll('.cta')[0];
 let abrir1 = document.querySelectorAll('.email-btn')[0];
