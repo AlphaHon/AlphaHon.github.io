@@ -12,4 +12,5 @@ x1.addEventListener("click", function(e){
 x2.addEventListener("click", function(e){
 
   x3.classList.toggle('show');
+  x.classList.toggle('fa-times');
 })

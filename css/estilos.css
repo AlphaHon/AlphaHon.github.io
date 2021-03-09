@@ -635,15 +635,17 @@ a.email-btn:hover{
         top:2px;
         z-index: 1001;
         padding:10px 15px;
-            }
+    }
+
     .fa-times{
         color: #a3261d;
+        cursor: pointer;
     }
     /**/
     nav > a{
-        padding-right: 3%;
         font: bold;
         display: block;
+        margin-bottom: 20px;
     }
         .nav-menu{
         display: block;
