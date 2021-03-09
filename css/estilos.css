@@ -61,7 +61,7 @@ nav {
 
 nav > a{
     color: rgb(214, 214, 214);
-    font-weight: 300;
+    font-weight: 700;
     text-decoration: none;
     display: inline-block;
 		line-height: normal;
@@ -69,6 +69,7 @@ nav > a{
 		border-bottom: 2px solid transparent;
 		font-size: 15px;
         padding: 1%;
+
 }
 nav > a:hover{
     opacity: 100%;
@@ -635,8 +636,8 @@ a.email-btn:hover{
         z-index: 1001;
         padding:10px 15px;
             }
-    .desplazamiento:hover{
-        opacity: 60%;
+    .fa-times{
+        color: #a3261d;
     }
     /**/
     nav > a{

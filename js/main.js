@@ -1,14 +1,15 @@
 
 let x1 = document.querySelectorAll('.desplazamiento')[0];
 let x2 = document.querySelectorAll('#menu-items')[0];
-let x = document.querySelectorAll('.nav-menu')[0];
-
-
+let x3 = document.querySelectorAll('.nav-menu')[0];
+let x= document.querySelectorAll('.fa')[0];
 x1.addEventListener("click", function(e){
   e.preventDefault();
-  x.classList.toggle('show');
+  x3.classList.toggle('show');
+  x.classList.toggle('fa-times');
+  
 })
 x2.addEventListener("click", function(e){
 
-  x.classList.toggle('show');
+  x3.classList.toggle('show');
 })
